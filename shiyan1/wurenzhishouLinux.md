@@ -45,10 +45,10 @@ cd /home/cuc
 //此处修改了ubuntu-18.04.4-server-amd64.iso名称
 put 1.iso
 ```
-![putISO](img/putISO.PNG)
+![putISO](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/putISO.PNG)
 
 （2）利用putty连接虚拟机【clone】（putty里面方便粘贴）  
-![putty](img/putty.PNG)
+![putty](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/putty.PNG)
 
 （3）在/home/cuc(当前目录下)创建一个用于挂载iso镜像文件的目录  
 `mkdir loopdir`  
@@ -80,7 +80,7 @@ label autoinstall
   append  file=/cdrom/preseed/ubuntu-server-autoinstall.seed debian-installer/locale=en_US console-setup/layoutcode=us keyboard-configuration/layoutcode=us console-setup/ask_detect=false localechooser/translation/warn-light=true localechooser/translation/warn-severe=true initrd=/install/initrd.gz root=/dev/ram rw quiet ---
 ```  
 
-![label autoinstall](img/labelAutoinstall.PNG)  
+![label autoinstall](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/labelAutoinstall.PNG)  
 
 （11）强制保存退出  
 `:wq!`  
@@ -125,14 +125,14 @@ get custom.iso
 （1）使用custom.iso创建虚拟机  
 （2）安装  
 这里并不是完全自动，前面还需要手动点击两步。  
-![anzhuang1](img/anzhuang1.PNG)  
-![anzhuang2](img/anzhuang2.PNG)
-![anzhuang3](img/anzhuang3.PNG)
+![anzhuang1](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/anzhuang1.PNG)  
+![anzhuang2](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/anzhuang2.PNG)  
+![anzhuang3](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/anzhuang3.PNG)
 
 #### 四、问题与解决
 
 * 在使用psftp传送seed文件时，报错:  
-![wrong1](img/wrong1.PNG)  
+![wrong1](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/wrong1.PNG)  
 错误原因：psftp对该文件夹没有write的权限
 解决方法：  
 `chmod 777 /home/cuc/cd/preseed`
@@ -152,3 +152,5 @@ get custom.iso
 （3）[Linux常用命令：chmod修改文件权限 777和754_运维_pythonw的博客-CSDN博客.html](https://blog.csdn.net/pythonw/article/details/80263428)  
 
 （4）[Linux chmod命令修改文件与文件夹权限方法_运维_Kevin的博客-CSDN博客.html](https://blog.csdn.net/starshinning975/article/details/71036921)  
+
+（5）[关于github上的README.md文件不能显示图片信息 - 简书.html](https://www.jianshu.com/p/ae49c026aacf)
