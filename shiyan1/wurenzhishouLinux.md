@@ -29,7 +29,7 @@ sudo netplan apply
 ifconfig -a
 ```
 
-![IP地址](https://github.com/yumlii33/linux-2020-yumlii33/raw/branch1/img/ip.PNG)  
+![IP地址](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch1/shiyan1/img/ip.PNG)  
 
 #### 二、利用该虚拟机完成镜像制作
 
