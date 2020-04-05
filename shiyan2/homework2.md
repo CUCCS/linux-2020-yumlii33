@@ -34,9 +34,10 @@ asciinema upload test.cast
 
 [lesson 3 & lesson 4](https://asciinema.org/a/pjMx82wcdiQKeTAwEBIX5ea3n)
 
-### Lesson 5 & Lesson 5 & Lesson 6
+### Lesson 5 & Lesson 6 & Lesson 7
 
-[lesson 5 & lesson 5 & lesson 6]( https://asciinema.org/a/1ZWam4vxAjuXOUvwBAML8ACOY)
+[lesson 5 & lesson 6 & lesson 7](https://asciinema.org/a/1ZWam4vxAjuXOUvwBAML8ACOY)  
+[补充：lesson 7.2](https://asciinema.org/a/plGCutui0g36tYe3eBPOtvVsL)
 
 ### 自查清单
 
