@@ -70,9 +70,9 @@
    # 5、检查是否挂载成功
    ```
 
-  ![share1](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch3/shiyan3/img/share%20(1).png)
+  ![share1](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch3/shiyan3/img/share1.png)
 
-   ![share2](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch3/shiyan3/img/share%20(2).png)
+   ![share2](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch3/shiyan3/img/share2.png)
 
 5. 基于LVM（逻辑分卷管理）的分区如何实现动态扩容和缩减容量？
 
