@@ -23,7 +23,7 @@
 
 ### 结果
 
-![answer](img\answer1.png)
+![answer](https://github.com/yumlii33/linux-2020-yumlii33/blob/branch4/shiyan4/img/answer1.png)
 
 [1](1)
 
