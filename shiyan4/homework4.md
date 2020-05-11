@@ -97,3 +97,4 @@ the youngest is
 * [ubuntu安装和使用ImageMagik](https://blog.csdn.net/jacke121/article/details/76126245)
 * [imageMagik命令行工具文档](https://imagemagick.org/script/command-line-processing.php)
 * [shell中的文本处理（grep，sed，awk命令）](https://blog.csdn.net/su_use/article/details/80742686)
+* [技术干货-Linux Shell精通教程](https://www.bilibili.com/video/BV117411e7TC?from=search&seid=8714070765139737202)
