@@ -10,7 +10,7 @@
 
 * Ubuntu 18.04.4 Server 64bit（双网卡）
 
-  ![image-20200524115950979](img\image-20200524115950979.png)
+  ![image-20200524115950979](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200524115950979.png)
 
 * Nginx
 
@@ -42,7 +42,7 @@
 
 4. 通过192.168.56.102访问Nginx
 
-   ![image-20200524120201427](img\image-20200524120201427.png)
+   ![image-20200524120201427](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200524120201427.png)
 
 ### 安装verynginx
 
@@ -98,11 +98,11 @@
 
 5. 通过192.168.56.102:8080访问verynginx
 
-   ![image-20200524122339023](img\image-20200524122339023.png)
+   ![image-20200524122339023](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200524122339023.png)
 
-   ![image-20200524122315898](img\image-20200524122315898.png)
+   ![image-20200524122315898](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200524122315898.png)
 
-   ![image-20200524122443965](img\image-20200524122443965.png)
+   ![image-20200524122443965](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200524122443965.png)
    
 6. 在windows的hosts里添加：
 
@@ -299,13 +299,13 @@
 
 7. 此时访问dvwa
 
-   ![image-20200524143934683](img\image-20200524143934683.png)
+   ![image-20200524143934683](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200524143934683.png)
 
 8. 在主机hosts文件中增加：`192.168.56.102    dvwa.sec.cuc.edu.cn`
 
 9. 通过`http://dvwa.sec.cuc.edu.cn:5566`访问
 
-   ![image-20200524144038633](img\image-20200524144038633.png)
+   ![image-20200524144038633](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200524144038633.png)
    
    
 
@@ -315,19 +315,19 @@
 
    * Add Matcher
 
-     ![image-20200525070318474](img\image-20200525070318474.png)
+     ![image-20200525070318474](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525070318474.png)
 
    * Add Response
 
-     ![image-20200525070347740](img\image-20200525070347740.png)
+     ![image-20200525070347740](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525070347740.png)
 
    * Add Filter
 
-     ![image-20200525070452048](img\image-20200525070452048.png)
+     ![image-20200525070452048](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525070452048.png)
 
    * 以ip无法正常访问：
 
-     ![image-20200525070415936](img\image-20200525070415936.png)
+     ![image-20200525070415936](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525070415936.png)
 
    注：如果修改后save失败，可能是权限问题修改权限:
 
@@ -339,37 +339,37 @@
 
    * Add Matcher
 
-     ![image-20200525071531305](img\image-20200525071531305.png)
+     ![image-20200525071531305](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525071531305.png)
 
    * Add Response
 
-     ![image-20200525071508333](img\image-20200525071508333.png)
+     ![image-20200525071508333](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525071508333.png)
 
    * Add Filter
 
-     ![image-20200525072205162](img\image-20200525072205162.png)
+     ![image-20200525072205162](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525072205162.png)
 
    * 不在白名单的客户端访问不成功
 
-     ![image-20200525071424359](img\image-20200525071424359.png)
+     ![image-20200525071424359](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525071424359.png)
 
 3. 在不升级Wordpress版本的情况下，通过定制VeryNginx的访问控制策略规则，热修复WordPress < 4.7.1 - Username Enumeration
 
    * Add Matcher
 
-     ![image-20200525071831308](img\image-20200525071831308.png)
+     ![image-20200525071831308](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525071831308.png)
 
    * Add Response
 
-     ![image-20200525072009998](img\image-20200525072009998.png)
+     ![image-20200525072009998](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525072009998.png)
 
    * Add Filter
 
-   * ![image-20200525072135121](img\image-20200525072135121.png)
+   * ![image-20200525072135121](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525072135121.png)
 
    * 访问
 
-     ![image-20200525072421652](img\image-20200525072421652.png)
+     ![image-20200525072421652](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525072421652.png)
 
      
 
@@ -377,15 +377,15 @@
 
    * Add Matcher
 
-     ![image-20200525072911291](img\image-20200525072911291.png)
+     ![image-20200525072911291](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525072911291.png)
 
    * Add Response
 
-     ![image-20200525073013603](img\image-20200525073013603.png)
+     ![image-20200525073013603](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525073013603.png)
 
    * Add Filter
 
-     ![image-20200525073115583](img\image-20200525073115583.png)
+     ![image-20200525073115583](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525073115583.png)
 
      
 
@@ -395,17 +395,17 @@
 
    * Add Matcher
 
-     ![image-20200525073629992](img\image-20200525073629992.png)
+     ![image-20200525073629992](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525073629992.png)
 
-     ![image-20200525073643706](img\image-20200525073643706.png)
+     ![image-20200525073643706](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525073643706.png)
 
    * Add Response
 
-     ![image-20200525073834590](img\image-20200525073834590.png)
+     ![image-20200525073834590](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525073834590.png)
 
    * Add Filter
 
-     ![image-20200525074009629](img\image-20200525074009629.png)
+     ![image-20200525074009629](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525074009629.png)
 
    * 
 
@@ -419,17 +419,17 @@
 
    * Add Matcher
 
-     ![image-20200525075952330](img\image-20200525075952330.png)
+     ![image-20200525075952330](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525075952330.png)
 
-     ![image-20200525080005780](img\image-20200525080005780.png)
+     ![image-20200525080005780](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525080005780.png)
 
    * Add Response
 
-     ![image-20200525074932203](img\image-20200525074932203.png)
+     ![image-20200525074932203](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525074932203.png)
 
    * Add Frequency Limit
 
-     ![image-20200525080153417](img\image-20200525080153417.png)
+     ![image-20200525080153417](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525080153417.png)
 
      
 
@@ -437,11 +437,11 @@
 
    * Add Matcher
 
-     ![image-20200525080725375](img\image-20200525080725375.png)
+     ![image-20200525080725375](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525080725375.png)
 
    * Add Fliter
 
-     ![image-20200525080812421](img\image-20200525080812421.png)
+     ![image-20200525080812421](https://github.com/CUCCS/linux-2020-yumlii33/blob/branch5/shiyan5/img/image-20200525080812421.png)
 
    
 
